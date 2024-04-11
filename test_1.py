@@ -1,14 +1,16 @@
 import pytest
 
-
+@pytest.mark.regreession
 def test_sum():
     assert 2+2==4
 
 
+@pytest.mark.regreession
 def test_multiply():
     assert 4*4 == 16
 
 
+@pytest.mark.regreession
 def test_minus():
     assert 4-5==1
 
